@@ -7,10 +7,10 @@ import csv
 csvpath = os.path.join('..', 'Resources', 'accounting.csv')
 
 # # Method 1: Plain Reading of CSV files
-# with open(csvpath, 'r') as file_handler:
-#     lines = file_handler.read()
-#     print(lines)
-#     print(type(lines))
+with open(csvpath, 'r') as file_handler:
+     lines = file_handler.read()
+     print(lines)
+     print(type(lines))
 
 
 # Method 2: Improved Reading using CSV module

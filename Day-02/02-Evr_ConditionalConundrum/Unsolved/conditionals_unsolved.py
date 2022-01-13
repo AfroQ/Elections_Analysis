@@ -2,16 +2,16 @@
 x = 5
 y = 10
 if 2 * x > 10:
-    print("Question 1 works!")
+    print("Question 1 works!") 
 else:
-    print("oooo needs some work")
+    print("oooo needs some work") #will print
 
 
 # 2.
 x = 5
 y = 10
 if len("Dog") < x:
-    print("Question 2 works!")
+    print("Question 2 works!") #will print
 else:
     print("Still missing out")
 
@@ -19,7 +19,7 @@ else:
 x = 2
 y = 5
 if (x ** 3 >= y) and (y ** 2 < 26):
-    print("GOT QUESTION 3!")
+    print("GOT QUESTION 3!") #will print
 else:
     print("Oh good you can count")
 
@@ -34,7 +34,7 @@ if name in group_one:
 elif name in group_two:
     print(name + " is in group two")
 elif name in group_three:
-    print(name + " is in group three")
+    print(name + " is in group three") #will print
 else:
     print(name + " does not have a group")
 
@@ -51,6 +51,6 @@ elif (height > 65) and (age >= 18):
 elif (height > 60) and (age >= 18):
     print("Can ride light roller coasters")
 elif ((height > 50) and (age >= 18)) or ((adult_permission) and (height > 50)):
-    print("Can ride bumper cars")
+    print("Can ride bumper cars") #will print
 else:
     print("Stick to lazy river")
